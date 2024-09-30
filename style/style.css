@@ -19,3 +19,20 @@
     margin-bottom: 0.5em;
     margin-left: 0.2em;
 }
+
+.soft{
+    color: #7d7d7d; /* grigio chiaro */
+    font-weight: 300;
+}
+
+.blue{
+    color: rgb(76, 179, 253);
+}
+
+.tiny{
+    font-size: small;
+}
+
+.yellow{
+    background-color: yellow;
+}
