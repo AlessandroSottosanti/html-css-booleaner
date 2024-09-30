@@ -36,3 +36,19 @@
 .yellow{
     background-color: yellow;
 }
+
+.table-header{
+    color: white;
+    background-color: rgb(76, 179, 253);
+
+}
+
+.back-color{
+    background-color: rgb(149, 228, 247);
+}
+
+.table-config {
+    width: 100%;
+    border-collapse: collapse; /* Unisce i bordi delle celle */
+    border-spacing: 0; /* Rimuove lo spazio tra le celle */
+}
