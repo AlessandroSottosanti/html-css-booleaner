@@ -72,3 +72,12 @@
  width: 200px;
  height: 140px;
 }
+
+.col-3{
+    text-align: left;
+    width: 30%;
+}
+.col-6{
+    text-align: left;
+    width: 40%;
+}
