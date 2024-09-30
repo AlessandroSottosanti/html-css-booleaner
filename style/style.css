@@ -52,3 +52,23 @@
     border-collapse: collapse; /* Unisce i bordi delle celle */
     border-spacing: 0; /* Rimuove lo spazio tra le celle */
 }
+
+.text-with-bk-img{
+    color: white;
+}
+
+.bk-img-1{
+ background-image: url("../img/monitor.jpg");
+ background-size: contain;
+ background-repeat:no-repeat;
+ width: 200px;
+ height: 140px;
+}
+
+.bk-img-2{
+ background-image: url("../img/graph.jpg");
+ background-size: contain;
+ background-repeat:no-repeat;
+ width: 200px;
+ height: 140px;
+}
