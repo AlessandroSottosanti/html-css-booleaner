@@ -1,7 +1,21 @@
-.center-content{
+/* .center-content{
     margin-left: 20%;
     margin-right: 20%;
-}
+} */
+
 .header{
-    background-color: blueviolet;
+    background-size: 40%;
+    background-color: rgb(107, 169, 255);
+    background-image: url("../img/pattern.png");
+    height: 150px; /* altezza con valore fisso */
+    position: relative; /* posiziona il contenuto al suo interno basandosi sul contenitore */
+}
+
+.logo{
+    height: 50%;
+    position: absolute; /* mantiene la posizione */
+    bottom: 0; /* posiziona in basso */
+    left: 0; /* posiziona a sinistra */
+    margin-bottom: 0.5em;
+    margin-left: 0.2em;
 }
