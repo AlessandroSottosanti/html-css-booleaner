@@ -2,13 +2,26 @@
     margin-left: 20%;
     margin-right: 20%;
 } */
+* {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
 
+    box-sizing: border-box; /* Assicura che padding e bordi siano inclusi nella dimensione */
+}
+
+.margin{
+    margin: 0 10px; 
+
+}
 .header{
+    width: 100%; /* Imposta la larghezza dell'header su tutta la viewport */
     background-size: 40%;
     background-color: rgb(107, 169, 255);
     background-image: url("../img/pattern.png");
     height: 150px; /* altezza con valore fisso */
     position: relative; /* posiziona il contenuto al suo interno basandosi sul contenitore */
+    margin-bottom: 1em;
 }
 
 .logo{
@@ -16,8 +29,8 @@
     position: absolute; /* mantiene la posizione */
     bottom: 0; /* posiziona in basso */
     left: 0; /* posiziona a sinistra */
-    margin-bottom: 0.5em;
-    margin-left: 0.2em;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .soft{
@@ -51,6 +64,7 @@
     width: 100%;
     border-collapse: collapse; /* Unisce i bordi delle celle */
     border-spacing: 0; /* Rimuove lo spazio tra le celle */
+    margin-bottom: 1em;
 }
 
 .text-with-bk-img{
