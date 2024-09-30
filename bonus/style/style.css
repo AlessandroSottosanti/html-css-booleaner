@@ -1,0 +1,97 @@
+/* .center-content{
+    margin-left: 20%;
+    margin-right: 20%;
+} */
+* {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+
+    box-sizing: border-box; /* Assicura che padding e bordi siano inclusi nella dimensione */
+}
+
+.margin{
+    margin: 0 10%; 
+
+}
+.header{
+    width: 100%; /* Imposta la larghezza dell'header su tutta la viewport */
+    background-size: 40%;
+    background-color: rgb(107, 169, 255);
+    background-image: url("../img/pattern.png");
+    height: 150px; /* altezza con valore fisso */
+    position: relative; /* posiziona il contenuto al suo interno basandosi sul contenitore */
+    margin-bottom: 1em;
+}
+
+.logo{
+    height: 50%;
+    position: absolute; /* mantiene la posizione */
+    bottom: 0; /* posiziona in basso */
+    left: 0; /* posiziona a sinistra */
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.soft{
+    color: #7d7d7d; /* grigio chiaro */
+    font-weight: 300;
+}
+
+.blue{
+    color: rgb(76, 179, 253);
+}
+
+.tiny{
+    font-size: small;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.table-header{
+    color: white;
+    background-color: rgb(76, 179, 253);
+
+}
+
+.back-color{
+    background-color: rgb(149, 228, 247);
+}
+
+.table-config {
+    width: 100%;
+    border-collapse: collapse; /* Unisce i bordi delle celle */
+    border-spacing: 0; /* Rimuove lo spazio tra le celle */
+    margin-bottom: 1em;
+}
+
+.text-with-bk-img{
+    color: white;
+}
+
+.bk-img-1{
+ background-image: url("../img/monitor.jpg");
+ background-size: contain;
+ background-repeat:no-repeat;
+ width: 200px;
+ height: 140px;
+}
+
+.bk-img-2{
+ background-image: url("../img/graph.jpg");
+ background-size: contain;
+ background-repeat:no-repeat;
+ width: 200px;
+ height: 140px;
+}
+
+.col-3{
+    text-align: left;
+    width: 30%;
+}
+.col-6{
+    text-align: left;
+    width: 40%;
+}
